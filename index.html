@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Яндекс</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__column">
+        <div class="tabs">
+            <div class="widget__header">
+                <h2 class="widget__title title">
+                    <a class="link" href="#">Сейчас в СМИ</a>
+                </h2>
+                <span class="widget__title title">
+                    <a class="link" href="#">в Самаре</a>
+                </span>
+                <time class="widget__time" datetime="2018-07-22T19:35">22 июля, воскресенье 19:35</time>
+            </div>
+            <div class="widget__content">
+                <ul class="list">
+                    <li class="list__item">
+                        <a class="link link_black" href="#">Реакцию Порошенко на победу Усика назвали
+                            «идиотизмом»</a>
+                    </li>
+                    <li class="list__item">
+                        <a class="link link_black" href="#">По делу о госизмене в «Роскосмосе» арестован 74-летний
+                            ученый</a>
+                    </li>
+                    <li class="list__item">
+                        <a class="link link_black" href="#">Эксперт рассказал, зачем Израиль эвакуировал «Белых
+                            касок»
+                            из Сирии</a>
+                    </li>
+                    <li class="list__item">
+                        <a class="link link_black" href="#">Белоруссия обогнала Россию по уровню реальных зарплат</a>
+                    </li>
+                    <li class="list__item">
+                        <a class="link link_black" href="#">Над авиабазой Хмеймим уничтожили два неизвестных
+                            беспилотника</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="widget courses">
+            <div class="course__item">
+                <a class="course__name link link_black" href="https://news.yandex.ru/quotes/2002.html">USD MOEX</a>
+                <span class="course__value">63,52</span>
+                <span class="course__value course_fall">-0,14</span>
+            </div>
+            <div class="course__item">
+                <a class="course__name link link_black" href="https://news.yandex.ru/quotes/2000.html">EUR MOEX</a>
+                <span class="course__value">74,45</span>
+                <span class="course__value course_rise">+0,31</span>
+            </div>
+            <div class="course__item">
+                <a class="course__name link link_black" href="https://news.yandex.ru/quotes/1006.html">Нефть</a>
+                <span class="course__value">63,52</span>
+                <span class="course__value course_rise">+0,63%</span>
+            </div>
+        </div>
+    </div>
+    <div class="header__teaser teaser">
+        <div class="teaser__header">
+            <a class="link" href="#">
+                <img class="teaser__image" src="images/header-teaser.png" alt="Голосовой помощник Алиса">
+            </a>
+            <span class="teaser__age">0+</span>
+        </div>
+        <div class="">
+            <h2 class=""><a href="#">Что это за песня?</a></h2>
+            <span class="">Алиса подскажет название и исполнителя</span>
+        </div>
+    </div>
+</header>
+<!--<div class="search">-->
+<!--<h1 class="search__logo">-->
+<!--<a class="search__logo-link"-->
+<!--href="http://yandex.ru">-->
+<!--<img class="search__logo-image" alt="Яндекс" src="images/home-logo.svg">-->
+<!--</a>-->
+<!--</h1>-->
+<!--<div class="search__content">-->
+<!--<nav class="search__menu">-->
+<!--<ul class="search__list">-->
+<!--<li class="search__list-item">-->
+<!--<a href="//yandex.ru/video">Видео</a>-->
+<!--</li>-->
+<!--<li class="search__list-item">-->
+<!--<a href="//yandex.ru/images">Картинки</a>-->
+<!--</li>-->
+<!--<li class="search__list-item">-->
+<!--<a href="https://news.yandex.ru/">Новости</a>-->
+<!--</li>-->
+<!--<li class="search__list-item">-->
+<!--<a href="https://yandex.ru/maps">Карты</a>-->
+<!--</li>-->
+<!--<li class="search__list-item">-->
+<!--<a href="https://market.yandex.ru/?clid=505&amp;utm_source=face_abovesearch&amp;utm_campaign=face_abovesearch">Маркет</a>-->
+<!--</li>-->
+<!--<li class="search__list-item">-->
+<!--<a href="https://translate.yandex.ru/">Переводчик</a>-->
+<!--</li>-->
+<!--<li class="search__list-item">-->
+<!--<a href="https://music.yandex.ru/">Музыка</a>-->
+<!--</li>-->
+<!--<li class="search__list-item">-->
+<!--<a href="https://yandex.ru?stream_channel=146">ТВ онлайн</a>-->
+<!--</li>-->
+<!--<li class="search__list-item">-->
+<!--<a href="https://yandex.ru?stream_channel=146">ещё</a>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</nav>-->
+<!--<div class="search__panel">-->
+<!--<form class="search__panel-form" action="https://www.yandex.ru/search/">-->
+<!--<div class="search__field">-->
+<!--<input class="search__input" id="sample-input" type="text" placeholder="Найдется все" name="text">-->
+<!--<button class="search__button search__reset" type="reset">-->
+<!--<span class="visually-hidden">Очистить форму</span>-->
+<!--</button>-->
+<!--<button class="search__button search__keyboard" type="button">-->
+<!--<span class="visually-hidden">Кнопка для отображения экранной клавиатуры</span>-->
+<!--</button>-->
+<!--</div>-->
+<!--<button class="search__button search__submit" type="submit">-->
+<!--<span class="submit__text">Найти</span>-->
+<!--</button>-->
+<!--</form>-->
+<!--<div class="search__panel-sample">-->
+<!--<div class="sample__content">-->
+<!--<label for="sample-input" class="sample__input-label">-->
+<!--Найдётся всё. Например,&nbsp;-->
+<!--</label>-->
+<!--<a class="sample__input-link"-->
+<!--href="https://www.yandex.ru/search/?lr=51&text=%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D0%B2%D0%B5%D1%81%D0%B8%D1%82%20%D1%81%D0%BB%D0%BE%D0%BD">-->
+<!--сколько весит слон-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="promo__content">-->
+<!--<a class="promo__content-link" href="#">-->
+<!--<img class="promo__icon"-->
+<!--src="https://avatars.mds.yandex.net/get-banana/26007/x25Cg4cNaSSaxxYhof47XJYvt_banana_20161021_60-36-bro-link-morda-update-7.png/optimize"-->
+<!--alt="Установите современный браузер" width="30" height="18">Установите современный браузер-->
+<!--</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<div class="ba-teaser">
+    <img src="images/ba-teaser.gif" class="ba-teaser__image" alt="Яндекс Такси">
+</div>
+<div class="widgets">
+    <div class="widget">
+        <article class="widget__item">
+            <h2 class="widget__header title">
+                <a class="link" href="https://yandex.ru/pogoda/samara">Погода</a>
+            </h2>
+            <div class="widget__content">
+                <a class="weather__temp-link" href="https://yandex.ru/pogoda/samara">
+                    <span class="weather__icon weather__overcast">
+                        <span class="visually-hidden">Ясная погода</span>
+                    </span>
+                    <span class="weather__temp">+18°</span>
+                </a>
+                <div class="weather__forecast weather__temp">
+                    <a class="weather__forecast-link" href="https://yandex.ru/pogoda/samara">Утром&nbsp;+19,</a>
+                    <a class="weather__forecast-link" href="https://yandex.ru/pogoda/samara">днём&nbsp;+24</a>
+                </div>
+            </div>
+        </article>
+        <article class="widget__item">
+            <h2 class="widget__header title">
+                <a class="link" href="https://www.yandex.ru/all">Посещаемое</a>
+            </h2>
+            <ul class="widget__content list list_style">
+                <li class="list__item">
+                    <a class="link link_black"
+                       href="https://market.yandex.ru/?clid=568&utm_source=face_title&utm_medium=cpc&utm_campaign=ft_desktop_hub_all_ad7">
+                        Маркет
+                    </a><span>&nbsp;—&nbsp;</span>
+                    <a class="link link_black" href="#">любителям готовить</a>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black" href="#">Авто.ру</a><span>&nbsp;—&nbsp;</span>
+                    <a class="link link_black" href="#">внедорожники на зиму</a>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black" href="#">Недвижимость</a><span>&nbsp;—&nbsp;</span>
+                    <a class="link link_black" href="#">ЖК Измайловский лес</a>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black" href="#">Карты</a><span>&nbsp;—&nbsp;</span>
+                    <a class="link link_black" href="#">доставка цветов</a>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black" href="#">Здоровье</a><span>&nbsp;—&nbsp;</span>
+                    <a class="link link_black" href="#">поговорите с врачом</a>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black" href="#">Работа</a><span>&nbsp;—&nbsp;</span>
+                    <a class="link link_black" href="#">монтажник РЭА</a>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black" href="#">Видео</a><span>&nbsp;—&nbsp;</span>
+                    <a class="link link_black" href="#">про природу</a>
+                </li>
+            </ul>
+        </article>
+    </div>
+    <div class="widget">
+        <article class="widget__item">
+            <h2 class="widget__header title">
+                <a class="link" href="https://yandex.ru/maps/51/samara/probki">Пробки</a>
+            </h2>
+            <div class="widget__content">
+                <a class="traffic__link" href="https://yandex.ru/pogoda/samara">
+                    <span class="traffic__icon traffic__green">
+                        <span class="visually-hidden">Дороги почти свободны</span>
+                    </span>
+                    <span class="traffic__rate">2</span>
+                </a>
+                <div class="traffic__forecast">
+                    <a class="traffic__forecast-link" href="https://yandex.ru/maps/51/samara/probki">Дороги почти
+                        свободны</a>
+                </div>
+            </div>
+        </article>
+        <article class="widget__item">
+            <h2 class="widget__header title">
+                <a class="link" href="https://tv.yandex.ru/51/">Телепрограмма</a>
+            </h2>
+            <ul class="widget__content list list_style">
+                <li class="list__item">
+                    <span class="">20:55</span>
+                    <span class="">
+                            <a class="link link_black"
+                               href="https://tv.yandex.ru/51/program/2197?eventId=120238584">
+                                Пусть говорят
+                            </a>
+                            <a class="link link_black" href="https://tv.yandex.ru/51/channels/146">
+                                Первый
+                            </a>
+                        </span>
+                </li>
+                <li class="list__item">
+                    <span class="">21:00</span>
+                    <span class="">
+                            <a class="link link_black"
+                               href="https://tv.yandex.ru/51/program/2197?eventId=120238584">
+                                Вести
+                            </a>
+                            <a class="link link_black" href="https://tv.yandex.ru/51/channels/146">
+                                Россия 1
+                            </a>
+                        </span>
+                </li>
+                <li class="list__item">
+                    <span class="tv-stream__list-time">21:00</span>
+                    <span class="tv-stream__program">
+                            <a class="link link_black"
+                               href="https://tv.yandex.ru/51/program/246142?eventId=119997449">
+                                Право голоса
+                            </a>
+                            <a class="link link_black" href="https://tv.yandex.ru/51/channels/529">
+                                ТВ Центр
+                            </a>
+                        </span>
+                </li>
+                <li class="list__item">
+                    <span class="tv-stream__list-time">21:00</span>
+                    <span class="tv-stream__program">
+                            <a class="link link_black"
+                               href="https://tv.yandex.ru/51/program/2009454?eventId=120044409">
+                                Импровизация
+                            </a>
+                            <a class="link link_black" href="https://tv.yandex.ru/51/channels/474">
+                                ТНТ - Скат
+                            </a>
+                        </span>
+                </li>
+                <li class="list__item">
+                    <span class="tv-stream__list-time">21:25</span>
+                    <span class="tv-stream__program">
+                            <a class="link link_black"
+                               href="https://tv.yandex.ru/51/program/7552?eventId=119999069">
+                                След
+                            </a>
+                            <a class="link link_black" href="https://tv.yandex.ru/51/channels/427">
+                                Пятый канал
+                            </a>
+                        </span>
+                </li>
+                <li class="list__item">
+                    <span class="tv-stream__list-time">21:30</span>
+                    <span class="tv-stream__program">
+                            <a class="link link_black"
+                               href="https://tv.yandex.ru/51/program/3518291?eventId=120232019">
+                                Инсайдеры
+                            </a>
+                            <a class="link link_black" href="https://tv.yandex.ru/51/channels/1420">
+                                Пятница
+                            </a>
+                        </span>
+                </li>
+            </ul>
+        </article>
+    </div>
+    <div class="widget">
+        <article class="widget__item">
+            <h2 class="widget__header title">
+                <a class="link" href="https://yandex.ru/maps/?utm_source=geoblock_maps_samara">Карта
+                    Самары
+                </a>
+            </h2>
+            <ul class="widget__content list list_style">
+                <li class="region__list-item">
+                    <a class="link link_black"
+                       href="https://taxi.yandex.ru/?utm_source=yandex-geoblock&amp;utm_medium=RU-ALL-ALL&amp;utm_campaign=main&amp;utm_content=title-taxi&amp;utm_term=none">
+                        Такси
+                    </a>
+                </li>
+                <li class="region__list-item">
+                    <a class="link link_black"
+                       href="https://rasp.yandex.ru/?utm_source=yamain&amp;utm_medium=geoblock&amp;utm_campaign=main">
+                        Расписания
+                    </a>
+                </li>
+                <li class="region__list-item">
+                    <a class="link link_black"
+                       href="https://yandex.ru/bus/?utm_source=yamain&amp;utm_medium=geoblock">
+                        Междугородные автобусы
+                    </a>
+                </li>
+            </ul>
+        </article>
+        <article class="widget__item">
+            <h2 class="widget__header title">
+                <a class="link" href="https://afisha.yandex.ru/samara?utm_source=yamain&amp;utm_medium=yamain_afisha">
+                    Афиша
+                </a>
+            </h2>
+            <ul class="widget__content list list_style">
+                <li class="list__item">
+                    <a class="link link_black"
+                       href="https://afisha.yandex.ru/samara/cinema/mektoub-moia-liubov?utm_source=yamain&amp;utm_medium=yamain_afisha">
+                        Мектуб, моя любовь
+                    </a>
+                    <span class="poster__list-subtitle">премьера в&nbsp;чт</span>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black"
+                       href="https://afisha.yandex.ru/samara/cinema/skyscraper-2018?utm_source=yamain&amp;utm_medium=yamain_afisha">
+                        Небоскрёб
+                    </a>
+                    <span class="">боевик</span>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black"
+                       href="https://afisha.yandex.ru/samara/cinema/monstry-na-kanikulakh-3?utm_source=yamain&amp;utm_medium=yamain_afisha">
+                        Монстры на каникулах 3…
+                    </a>
+                    <span class="">мультфильм</span>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black"
+                       href="https://afisha.yandex.ru/samara/cinema/chelovek-muravei-i-osa?utm_source=yamain&amp;utm_medium=yamain_afisha">
+                        Человек-Муравей и Оса
+                    </a>
+                    <span class="">фантастика</span>
+                </li>
+                <li class="list__item">
+                    <a class="link link_black"
+                       href="https://afisha.yandex.ru/samara/cinema/ozero-mertvykh-rusalka?utm_source=yamain&amp;utm_medium=yamain_afisha">
+                        Русалка. Озеро мёртвых
+                    </a>
+                    <span class="">ужасы</span>
+                </li>
+            </ul>
+        </article>
+    </div>
+</div>
+<!--<footer class="footer">-->
+<!--<div class="footer__content">-->
+<!--<div class="footer__container">-->
+<!--<div class="footer__column media">-->
+<!--<ul class="media__list">-->
+<!--<li class="media__list-item">-->
+<!--<a class="media__list-title" href="//zen.yandex.ru">Дзен</a><span>&nbsp;—&nbsp;</span><a-->
+<!--class="media__list-subtitle" href="//zen.yandex.ru">персональная лента публикаций</a>-->
+<!--</li>-->
+<!--<li class="media__list-item">-->
+<!--<a class="media__list-title" href="//zen.yandex.ru">ТВ онлайн</a><span>&nbsp;—&nbsp;</span><a-->
+<!--class="media__list-subtitle" href="//zen.yandex.ru">эфир любимых каналов</a>-->
+<!--</li>-->
+<!--<li class="media__list-item">-->
+<!--<a class="media__list-title" href="//zen.yandex.ru">Телепередачи</a><span>&nbsp;—&nbsp;</span><a-->
+<!--class="media__list-subtitle" href="//zen.yandex.ru">архив лучших выпусков</a>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="footer__column business">-->
+<!--<ul class="business__list">-->
+<!--<li class="business__list-item">-->
+<!--<a class="business__list-link" href="https://direct.yandex.ru/?from=maintest_ru_razmestitrekl">Директ</a>-->
+<!--</li>-->
+<!--<li class="business__list-item">-->
+<!--<a class="business__list-link"-->
+<!--href="https://metrika.yandex.ru/?utm_source=yandexru.v14w&amp;utm_medium=web&amp;utm_campaign=static">Метрика</a>-->
+<!--</li>-->
+<!--<li class="business__list-item">-->
+<!--<a class="business__list-link" href="https://yandex.ru/adv/?from=main_bottom">Реклама</a>-->
+<!--</li>-->
+<!--<li class="business__list-item">-->
+<!--<a class="business__list-link" href="https://kassa.yandex.ru/?_openstat=promo;yandex;">Касса</a>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="footer__column company">-->
+<!--<ul class="company__list">-->
+<!--<li class="company__list-item">-->
+<!--<a class="company__list-link" href="https://yandex.ru/jobs">Вакансии</a>-->
+<!--</li>-->
+<!--<li class="company__list-item">-->
+<!--<a class="company__list-link" href="https://yandex.ru/blog/company/">Блог</a>-->
+<!--</li>-->
+<!--<li class="company__list-item">-->
+<!--<a class="company__list-link" href="https://yandex.ru/company/">Компания</a>-->
+<!--</li>-->
+<!--<li class="company__list-item">-->
+<!--<a class="company__list-link" href="https://yandex.com/company/">About</a>-->
+<!--</li>-->
+<!--</ul>-->
+<!--<ul class="company__list">-->
+<!--<li class="company__list-item">-->
+<!--<a class="company__list-link" href="https://yandex.ru/support/">Помощь</a>-->
+<!--</li>-->
+<!--<li class="company__list-item">-->
+<!--<a class="company__list-link" href="https://yandex.ru/support/common/">Обратная связь</a>-->
+<!--</li>-->
+<!--<li class="company__list-item">-->
+<!--<a class="company__list-link"-->
+<!--href="https://yandex.ru/legal/confidential/">Конфиденциальность</a>-->
+<!--</li>-->
+<!--<li class="company__list-item">-->
+<!--<a class="company__list-link" href="https://yandex.ru/company/researches/?from=main_bottom">Исследования</a>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="footer__logo"></div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</footer>-->
+</body>
+</html>
